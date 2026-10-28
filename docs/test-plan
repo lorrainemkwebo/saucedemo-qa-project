@@ -1,0 +1,35 @@
+# Test Plan: SauceDemo
+
+## 1. Goal
+Check that the main shopping flow on https://www.saucedemo.com works correctly, and find any bugs.
+
+## 2. What I will test (in scope)
+- Login (valid user, locked-out user, wrong password, empty fields)
+- Products page (adding and removing items)
+- Cart (item count, removing items)
+- Checkout information form (first name, last name, postal code)
+- Checkout overview and order confirmation
+- Logout
+
+## 3. What I will not test (out of scope)
+- Performance and load testing
+- Security testing
+- Sign-up (the site has no sign-up feature)
+
+## 4. Test approach
+- Manual testing first, written as test cases
+- Then automate the most important tests with Playwright
+
+## 5. Test data
+- Username: standard_user (shared password shown on the login page)
+- Also: locked_out_user, problem_user
+
+## 6. Environment
+- Browser: (write the one you use, e.g. Chrome)
+- Operating system: Pop!_OS Linux
+
+## 7. Deliverables
+- This test plan
+- Test cases (docs/test-cases.md)
+- Bug reports (docs/bug-reports.md)
+- Automated tests (tests/)
