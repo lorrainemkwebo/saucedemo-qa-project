@@ -15,14 +15,16 @@ Check that the main shopping flow on https://www.saucedemo.com works correctly, 
 - Performance and load testing
 - Security testing
 - Sign-up (the site has no sign-up feature)
+- Behaviour of users other than standard_user
 
 ## 4. Test approach
 - Manual testing first, written as test cases
 - Then automate the most important tests with Playwright
 
 ## 5. Test data
-- Username: standard_user (shared password shown on the login page)
-- Also: locked_out_user, problem_user
+- Main user: standard_user (shared password shown on the login page)
+- locked_out_user is used only for the locked-out login check (TC-04)
+- Other users (such as problem_user) are out of scope for this project
 
 ## 6. Environment
 - Browser: (write the one you use, e.g. Chrome)
