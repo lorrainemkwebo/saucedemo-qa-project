@@ -29,5 +29,5 @@ To practise the full QA process: planning, writing test cases, running them, rep
 - Git and GitHub
 
 ## Author
-[Your name], Software Engineering student at WeThinkCode_
-[Link to your LinkedIn]
+Lorraine Mkwebo, Software Engineering student at WeThinkCode_
+Linkedin: https://www.linkedin.com/in/lorraine-mkwebo-38ab0b259/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BS0NMlk2QSgqPtAmuIH3Jjw%3D%3D
