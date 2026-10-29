@@ -3,7 +3,7 @@
 | ID | Area | Steps | Expected result | Actual result | Status |
 |----|------|-------|-----------------|---------------|--------|
 | TC-01 | Login | Log in with `standard_user` and the correct password | User lands on the products page | Taken to the products page | Pass |
-| TC-02 | Login | Log in with `standard_user` and a wrong password | Error message is shown, user stays on login page | when I log in with a wrong password it gave me the error message | Pass |
+| TC-02 | Login | Log in with `standard_user` and a wrong password | Wrong password shows an error, user stays on login page | when I log in with a wrong password it gave me the error message | Pass |
 | TC-03 | Login | Click Login with both fields empty | Error message says username is required | Error message shown, could not log in | Pass |
 | TC-04 | Login | Log in with `locked_out_user` | Error message says the user is locked out | Message says the user is locked out, could not log in | Pass |
 | TC-05 | Cart | Add one item to the cart | Cart icon shows 1 | Cart icon shows 1 | Pass |
