@@ -51,3 +51,13 @@ test('TC-14: password without a username shows an error', async ({ page }) => {
   await expect(error).toContainText('Username is required');
   await expect(page).not.toHaveURL(/inventory/);
 });
+
+test('TC-06: removing an item takes it out of the cart', async ({ page }) => {
+  await page.click('[data-test="add-to-cart-sauce-labs-backpack"]');
+  await expect(page.locator('[data-test="shopping-cart-badge"]')).toHaveText('1');
+
+  await page.click('[data-test="remove-sauce-labs-backpack"]');
+  await expect(page.locator('[data-test="shopping-cart-badge"]')).toHaveCount(0);
+});
+
+
