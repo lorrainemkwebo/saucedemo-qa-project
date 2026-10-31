@@ -13,6 +13,23 @@ To practise the full QA process: planning, writing test cases, running them, rep
 - Checkout form and order confirmation
 - Logout
 
+## Automated tests (Playwright)
+
+Automated tests are in the `tests/` folder:
+- `login.spec.js`: TC-01 to TC-04, TC-13, TC-14
+- `cart.spec.js`: TC-05, TC-06, TC-15
+- `logout.spec.js`: TC-12
+
+TC-15 is marked as a known bug (Bug Report 002), so it passes as an expected failure.
+
+### How to run them
+```bash
+npm install
+npx playwright install chromium
+npx playwright test
+npx playwright show-report
+```
+
 ## Project structure
 - `docs/test-plan.md`: what I tested, what I didn't, and how
 - `docs/test-cases.md`: step-by-step test cases with expected and actual results

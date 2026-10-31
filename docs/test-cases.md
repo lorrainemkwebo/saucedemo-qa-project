@@ -22,3 +22,6 @@
 | TC-18 | Checkout | Click Finish on the checkout overview page | User goes to the checkout complete page | Taken to the checkout complete page | Pass |
 | TC-19 | Navigation | Click Back Home on the checkout complete page | User returns to the products page | Taken to the products page | Pass |
 | TC-20 | Checkout | Enter special characters (`!!@@`) in the postal code | Error message says postal code is invalid | when I enterd special characters it gave me error message | Pass |
+
+**Automated with Playwright:** TC-01 to TC-06, TC-12 to TC-15. All other cases were run manually.
+
