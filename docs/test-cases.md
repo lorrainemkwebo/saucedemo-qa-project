@@ -18,7 +18,7 @@
 | TC-14 | Login | Enter a password but leave the username empty, then click Login | Error message says username is required | Error message says username is required | Pass |
 | TC-15 | Checkout | Click Checkout with an empty cart | User is blocked or shown a message that the cart is empty | Taken to the checkout information page with no message | Fail |
 | TC-16 | Checkout | Enter valid first name, last name and postal code, then Continue | User goes to the checkout overview page | Taken to the checkout overview page | Pass |
-| TC-17 | Checkout | Click Cancel on the checkout overview page | User returns to the products page | Reported: user was logged out (needs a retest) | Retest |
+| TC-17 | Checkout | Click Cancel on the checkout overview page | User returns to the products page | User was logged out | Fail |
 | TC-18 | Checkout | Click Finish on the checkout overview page | User goes to the checkout complete page | Taken to the checkout complete page | Pass |
 | TC-19 | Navigation | Click Back Home on the checkout complete page | User returns to the products page | Taken to the products page | Pass |
 | TC-20 | Checkout | Enter special characters (`!!@@`) in the postal code | Error message says postal code is invalid | when I enterd special characters it gave me error message | Pass |
