@@ -38,11 +38,11 @@ npx playwright show-report
 
 ## Key findings
 - The postal code field accepts letters and symbols (see Bug Report 001)
-- [Add more here as you find them]
+
 
 ## Tools
 - Manual testing
-- Playwright (to be added)
+- Playwright
 - Git and GitHub
 
 ## Author
